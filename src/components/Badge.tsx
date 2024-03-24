@@ -44,18 +44,18 @@ export const Badge = (props: Props) => {
         'background-color': props.badgeBackgroundColor ?? '#ffffff',
       }}
     >
-      Powered by
+      נוצר ע"י
       <a
         ref={liteBadge}
-        href={'https://flowiseai.com'}
+        href={'http://saritshoval.co.il'}
         target="_blank"
         rel="noopener noreferrer"
         class="lite-badge"
         id="lite-badge"
         style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
-        <span> Flowise</span>
-      </a>
+        <span>052-8225647 שרית שובל - לשיפורים, שאלות או רכישה שלח הודעות בוואטסאפ </span>
+      </a>-
     </span>
   );
 };
