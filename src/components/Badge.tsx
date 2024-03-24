@@ -55,7 +55,8 @@ export const Badge = (props: Props) => {
         style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
         <span>052-8225647 שרית שובל - לשיפורים, שאלות או רכישה שלח הודעות בוואטסאפ </span>
-      </a>-
+      </a>
+      -
     </span>
   );
 };
